@@ -8,21 +8,21 @@ int main() {
 
     int num1,num2,sum;
 
-
-    printf("Please enter first number = ");
+    //first number is taken from user
+    
+    printf("Please enter first number = "); 
     scanf("%d",&num1);
+    
+    //second number is taken from user
+    
     printf("Please enter second number = ");
     scanf("%d",&num2);
 
+    //adding two numbers
     sum = num1 + num2;
+    
+    //print result to screen
     printf("%d + %d = %d ",num1,num2,sum);
-
-
-
-
-
-
-
 
     return 0;
 }
